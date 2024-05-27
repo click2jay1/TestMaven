@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 24 20:27:58 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108848 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MavenPakage.LoginToInstagramUsingExcelData.loginData()'><b>loginData</b><br>Test class: MavenPakage.LoginToInstagramUsingExcelData<br>Parameters: Demo4, Demo456</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginToInstagramUsingExcelData@4c583ecf</td></tr>
+<tr>
+<td title='MavenPakage.MouseHover.resizable()'><b>resizable</b><br>Test class: MavenPakage.MouseHover</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MouseHover@7b2bbc3</td></tr>
+<tr>
+<td title='MavenPakage.CopyWebTabletoExcelSheet.copyTable()'><b>copyTable</b><br>Test class: MavenPakage.CopyWebTabletoExcelSheet</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.CopyWebTabletoExcelSheet@2a65fe7c</td></tr>
+<tr>
+<td title='MavenPakage.LoginToInsta.loginData()'><b>loginData</b><br>Test class: MavenPakage.LoginToInsta</td>
+<td></td>
+<td>10</td>
+<td>MavenPakage.LoginToInsta@48f2bd5b</td></tr>
+<tr>
+<td title='MavenPakage.LoginToInstagramUsingExcelData.loginData()'><b>loginData</b><br>Test class: MavenPakage.LoginToInstagramUsingExcelData<br>Parameters: Demo, Demo123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginToInstagramUsingExcelData@4c583ecf</td></tr>
+<tr>
+<td title='MavenPakage.LoginUsingExcel.login()'><b>login</b><br>Test class: MavenPakage.LoginUsingExcel<br>Parameters: Jack, Jack123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginUsingExcel@2a3b5b47</td></tr>
+<tr>
+<td title='MavenPakage.LoginToInstagramUsingExcelData.loginData()'><b>loginData</b><br>Test class: MavenPakage.LoginToInstagramUsingExcelData<br>Parameters: Demo3, Demo345</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginToInstagramUsingExcelData@4c583ecf</td></tr>
+<tr>
+<td title='MavenPakage.DPExp.login()'><b>login</b><br>Test class: MavenPakage.DPExp<br>Parameters: tani, tani111</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.DPExp@692f203f</td></tr>
+<tr>
+<td title='MavenPakage.DPExp.login()'><b>login</b><br>Test class: MavenPakage.DPExp<br>Parameters: pooja, pooja123</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.DPExp@692f203f</td></tr>
+<tr>
+<td title='MavenPakage.LoginToInstagramUsingExcelData.loginData()'><b>loginData</b><br>Test class: MavenPakage.LoginToInstagramUsingExcelData<br>Parameters: Demo2, Demo234</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginToInstagramUsingExcelData@4c583ecf</td></tr>
+<tr>
+<td title='MavenPakage.MouseHover.dragable()'><b>dragable</b><br>Test class: MavenPakage.MouseHover</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MouseHover@7b2bbc3</td></tr>
+<tr>
+<td title='MavenPakage.DPExp.login()'><b>login</b><br>Test class: MavenPakage.DPExp<br>Parameters: priya, priya111</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.DPExp@692f203f</td></tr>
+<tr>
+<td title='MavenPakage.MoreAnnotations.testCase1()'><b>testCase1</b><br>Test class: MavenPakage.MoreAnnotations</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MoreAnnotations@4d5d943d</td></tr>
+<tr>
+<td title='MavenPakage.LoginUsingExcel.login()'><b>login</b><br>Test class: MavenPakage.LoginUsingExcel<br>Parameters: Ravi, Ravi123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginUsingExcel@2a3b5b47</td></tr>
+<tr>
+<td title='MavenPakage.ReadingExcelAndPrint.readFromLocal()'><b>readFromLocal</b><br>Test class: MavenPakage.ReadingExcelAndPrint</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.ReadingExcelAndPrint@2d3379b4</td></tr>
+<tr>
+<td title='MavenPakage.AutoDropDownSuggestions.searchDropdown()'><b>searchDropdown</b><br>Test class: MavenPakage.AutoDropDownSuggestions</td>
+<td></td>
+<td>5</td>
+<td>MavenPakage.AutoDropDownSuggestions@313ac989</td></tr>
+<tr>
+<td title='MavenPakage.CaptchaDemo.mathCaptcha()'><b>mathCaptcha</b><br>Test class: MavenPakage.CaptchaDemo</td>
+<td></td>
+<td>5</td>
+<td>MavenPakage.CaptchaDemo@368f2016</td></tr>
+<tr>
+<td title='MavenPakage.LoginUsingExcel.login()'><b>login</b><br>Test class: MavenPakage.LoginUsingExcel<br>Parameters: Mike, Mike123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginUsingExcel@2a3b5b47</td></tr>
+<tr>
+<td title='MavenPakage.TestExcel.readFromLocal()'><b>readFromLocal</b><br>Test class: MavenPakage.TestExcel</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.TestExcel@4562e04d</td></tr>
+<tr>
+<td title='MavenPakage.MoreAnnotations.testCase2()'><b>testCase2</b><br>Test class: MavenPakage.MoreAnnotations</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MoreAnnotations@4d5d943d</td></tr>
+<tr>
+<td title='MavenPakage.LoginUsingExcel.login()'><b>login</b><br>Test class: MavenPakage.LoginUsingExcel<br>Parameters: Jay, Jay123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginUsingExcel@2a3b5b47</td></tr>
+<tr>
+<td title='MavenPakage.MouseHover.dragAndDrop()'><b>dragAndDrop</b><br>Test class: MavenPakage.MouseHover</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MouseHover@7b2bbc3</td></tr>
+<tr>
+<td title='MavenPakage.LoginUsingExcel.login()'><b>login</b><br>Test class: MavenPakage.LoginUsingExcel<br>Parameters: Peter, Peter123</td>
+<td></td>
+<td>3</td>
+<td>MavenPakage.LoginUsingExcel@2a3b5b47</td></tr>
+<tr>
+<td title='MavenPakage.MouseHover.sortable()'><b>sortable</b><br>Test class: MavenPakage.MouseHover</td>
+<td></td>
+<td>0</td>
+<td>MavenPakage.MouseHover@7b2bbc3</td></tr>
+</table><p>
+</body>
+</html>

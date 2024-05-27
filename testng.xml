@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="MavenPakage.LoginUsingExcel"/>
+      <class name="MavenPakage.AutoDropDownSuggestions"/>
+      <class name="MavenPakage.TestExcel"/>
+      <class name="MavenPakage.CopyWebTabletoExcelSheet"/>
+      <class name="MavenPakage.MoreAnnotations"/>
+      <class name="MavenPakage.CaptchaDemo"/>
+      <class name="MavenPakage.LoginToInstagramUsingExcelData"/>
+      <class name="MavenPakage.DPExp"/>
+      <class name="MavenPakage.LoginToInsta"/>
+      <class name="MavenPakage.MouseHover"/>
+      <class name="MavenPakage.ReadingExcelAndPrint"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
